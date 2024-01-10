@@ -1,0 +1,211 @@
+/**
+    * cssreset
+    */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	direction:rtl;
+	font:16px arabic;
+    background:#CECECE;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a
+{
+	text-decoration:none;
+	color:#000;
+}
+/**
+    * cssreset
+    */
+@font-face
+{
+    font-family:"arab";
+    src:url(../../../Font/BYekan.ttf);
+}
+body
+{
+    background:#BFBFBF;
+}
+.main
+{
+    width:400px;
+    height:420px;
+    margin:auto;
+    margin-top:100px;
+    font:16px arab;
+    background:#E8E8E8;
+    direction:rtl;
+    border: 1px dashed #716e6f;
+    box-shadow: 0px 0px 1px #716e6f;
+}
+.main-form
+{
+    width:400px;
+    height:170px;
+    background:#FFFFFF;
+    float:right;
+    padding-top:30px;
+    border-bottom: 1px dashed #716e6f;
+    border-top: 1px dashed #716e6f;
+    font:13px arab;
+
+}
+.re
+{
+    float:right;
+    width:180px;
+    margin-top:80px;
+    margin-right:-50px;
+}
+.re [type=checkbox]
+{
+    float:right;
+    font:12px arab;
+    margin-top:3px;
+}
+.username
+{
+    margin:10px 20px;
+    float:right;
+}
+.username [type=text]
+{
+    width:200px;
+    height:25px;
+    border:1px solid #000000;
+    text-indent:20px;
+    margin-right:30px;
+    box-shadow:0px 0px 6px #000000;
+    font:19px arab;
+}
+.password [type=password]
+{
+    width:200px;
+    height:25px;
+    border:1px solid #000000;
+    text-indent:20px;
+    margin-right:40px;
+    box-shadow:0px 0px 6px #000000;
+    font:19px arab;
+}
+.password
+{
+    margin:10px 20px;
+    float:right;
+}
+.button
+{
+    margin:20px 60px;
+    float:right;
+}
+.button [type=submit]
+{
+    width:80px;
+    height:30px;
+    border:1px solid #000000;
+    font:17px arab;
+    background-color:#64A3B9;
+}
+.button label
+{
+    text-shadow:0px 0px 1px #F9060A;
+    margin-right:10px;
+}
+.info
+{
+    width:100%;
+    height:90px;
+    margin-bottom:50px;
+}
+.info img
+{
+    float:right;
+    margin-left:30px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.info p
+{
+    float:right;
+    font:22px arab;
+    margin-top:40px;
+}
+.buttom
+{
+    width:100%;
+    height:auto;
+    margin-top:270px;
+}
+.buttom-right
+{
+    width:50%;
+    height:60px;
+    float:right;
+}
+.buttom-right [type=checkbox]
+{
+    float:right;
+    margin-top:25px;
+}
+.buttom-right p
+{
+    float:right;
+    font:171px arab;
+    margin-right:5px;
+}
+.buttom-left
+{
+    width:90%;
+    height:60px;
+    float:left;
+    margin-top:-20px;
+}
+.buttom-left p
+{
+    float:left;
+    font:13px arab;
+    margin-right:145px;
+    margin-left:30px;
+    margin-top:28px;
+}
+#message
+{
+    font:13px arab;
+}
+.result{
+    background-color:#73EBA6;
+    width:381px;
+    height:20px;
+    margin: auto;
+    padding:10px 10px;
+    border-radius:3px;
+    font-size:13px;
+    border:1px solid #6DB165;
+    margin-top: 20px;
+    font:13px arab;
+
+}
